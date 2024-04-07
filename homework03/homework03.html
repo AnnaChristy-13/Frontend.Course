@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="get">
+
+    <h1>Registration</h1>
+    <br>
+    <br>
+    <div class="image-container">
+    <img src="https://leadgenapp.io/wp-content/uploads/2023/01/Heres-how-you-can-register-property-online-in-Delhi.jpg"alt="Registration">
+    </div>
+    <br>
+    <br> 
+    <br>
+    <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName"required maxlength="10">
+    <br>
+    <br>
+    <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required maxlength="10">
+    <br>
+    <br>
+    <label for="Gender">Gender</label>    
+        male
+        <input type="radio" name="male_female" value="male">    
+        female
+        <input type="radio" name="male_female" value="female">
+    <br>
+    <br>
+    <label for="email">Email</label>
+        <input type="email" name="email" id="email"required>
+    <br>
+    <br>
+    <label for="password">Password</label>
+        <input type="password" name="password" id="password"required>
+    <br>
+    <br>
+    <label for="date">Date of birth</label>
+        <input type="date" name="date" id="date"required>
+    <br>
+    <br>
+    <label for="Citizenship">Citizenship</label>
+        <select name="Citizenship" multiple>
+            <option value="German">German</option>
+            <option value="Russian" >Russian</option>
+            <option value="Ukrainian">Ukrainian</option>            
+            <option value="other">other</option>
+        </select>
+        <br>
+        <br>
+    <label for="additionalInfo">Additional Information:</label>
+           <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="reset" value="Resert form">
+        <br>
+        <br>
+        <button type="submit">
+            Send form
+        </button>
+    
+ </form>   
+</body>
+</html>
