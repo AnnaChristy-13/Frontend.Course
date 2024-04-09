@@ -1,0 +1,21 @@
+.content-wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.klimtPhoto img{
+    height: 400px;
+    width: 350px;
+    border: thick double;   
+
+}
+
+.biography p{
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+}

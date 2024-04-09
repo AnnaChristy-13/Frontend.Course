@@ -1,0 +1,34 @@
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+}
+
+.product {
+    border: double;
+    width: 500px;
+    height: 800px;
+}
+
+.shop img {
+    height: 350px;
+    width: 250px;
+    margin-top: 80px;
+}
+
+.shop h2 {
+    margin-top: 100px;
+}
+
+.shop p {
+    font-size: x-large;
+    color: gold;
+}
+
+.product button {
+    background-color: black;
+    border: double;
+    border-color: grey;
+    font-family: cursive;
+}

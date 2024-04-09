@@ -1,0 +1,27 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+    
+}
+
+.picture{    
+ border: double;   
+ width: 500px;
+ height: 800px;
+}
+
+.gallery img{
+    height: 350px;
+    width: 250px;
+    margin-top: 80px;
+}
+
+.gallery h3{
+    margin-top: 20px;
+}
+
+.gallery p{
+    font-size:medium;
+}
