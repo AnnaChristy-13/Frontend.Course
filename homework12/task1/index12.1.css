@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    color: red;
+    margin: 0;
+    padding: 0;
+    background-image: url(./background.jpeg);
+    text-align: center;
+}
+
+
+input[type="username"],
+input[type="password"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a22f05;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: #030303;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+

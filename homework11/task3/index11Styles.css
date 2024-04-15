@@ -1,0 +1,32 @@
+.card-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+} 
+
+.card {  
+ border: double;   
+ width: 100%;
+ height: 600px;
+ background-color: black;
+ display: flex; 
+ flex-direction: column; 
+ align-items: center; 
+}
+
+
+.card img{
+    height: 350px;
+    width: 250px;
+    margin-top: 80px;
+} 
+
+.card h2{
+    margin-top: 20px;
+    color: yellow;
+}
+
+.card p{
+    font-size:medium;
+    color:yellow;
+}
