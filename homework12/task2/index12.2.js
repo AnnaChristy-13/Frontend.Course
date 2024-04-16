@@ -29,7 +29,7 @@ function calculateQuadraticEquation() {
 
     } else {
 
-        answer.classList.add(0);
+        
         answer.value = `No roots`;
 
     }
@@ -39,7 +39,7 @@ function clearInputs() {
     document.getElementById('a').value = '';
     document.getElementById('b').value = '';
     document.getElementById('c').value = '';
-    answerTextArea.value = '';
+    answer.value = '';
 }
 
 calculateButton.addEventListener('click', calculateQuadraticEquation);
