@@ -1,0 +1,65 @@
+body{
+    
+   background-image: url(./background.jpg);
+   background-size: 100%;
+    
+}
+
+.wrapper select{
+    width: 230px;
+    height: 30px;
+    background-color: rgba(211, 221, 221, 0.868);
+}
+
+.wrapper input{
+    width: 230px;
+    height: 30px;
+    background-color: rgba(211, 221, 221, 0.868);    
+}
+
+.wrapper button{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(211, 221, 221, 0.868);   
+}
+
+body h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+
+} 
+
+.todo-item span{
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.todo-item p{
+    font-size: large;
+    color: darkblue;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.is-done p {
+    text-decoration: line-through;
+    
+}
+
+.is-done-checkbox{
+    transform: scale(0.8);
+    margin-left: 5px;
+    
+         
+}
+
+ 
+.todo-item {
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px; 
+    font-size: large;
+}
+

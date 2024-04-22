@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url(./background01.webp);
+    background-size:95%;
+    
+}
+
+.spaceship-wrapper{
+    text-align: center;        
+    width: 480px;
+    height: 380px;
+    background-color: rgb(55, 114, 154);
+    border-radius: 30% ;
+    margin-top: 210px;
+    opacity: 80%;
+    }
+
+.name,
+.manufacturer,
+.crew,
+.astronauts,
+.engineers,
+.scientists,
+.maxSpeed{    
+    font-size: 18px;
+    font-family:monospace;
+    color:orange;
+    font-weight: bold;       
+}
+
+.astronauts,
+.engineers,
+.scientists{
+    text-align: left;
+}
+
+h3{
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 10px;
+    color: blue;
+}
+
+.hideCrewBtn{
+    width: 180px;
+    height: 25px;
+    border-radius: 10%;
+    background-color: rgb(97, 203, 203);
+    font-family:fantasy;
+    font-size:15px;
+    color: blue;
+}
+
+
