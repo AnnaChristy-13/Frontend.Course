@@ -1,0 +1,37 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url(../img/9d48e49b4faea873ea6dba1df535eb3c.jpg);
+background-size: 90%;
+    
+
+}
+
+.wrapper button{
+ font-style: italic; 
+ font-weight: bolder;  
+ font-size: larger;
+ color:rgba(151, 199, 7, 0.707);
+ background-color: rgb(71, 70, 70);
+ margin-left: 100px;
+cursor: pointer;
+   
+}
+
+.wrapper textarea{
+    margin-top: 250px;
+    margin-left: 100px;
+    background-color: grey;
+    
+
+}
+
+.wrapper button:hover {
+    background-color: rgb(71, 70, 70);
+    color: yellowgreen;
+}
+
+.wrapper textarea:hover {
+    border-color: yellowgreen;
+      
+}
